@@ -95,13 +95,13 @@ footer {
   font-family: Indie Flower;
 }
 
-.container {
+.con {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
 }
 
-.container img {
+.con img {
   width: 100%;
   max-width: 100%;
   height: auto;
