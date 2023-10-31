@@ -1,0 +1,160 @@
+/*BACK GROUND SETTING*/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1em;
+  background-color: black;
+}
+
+
+header {
+  color: lightpink;
+  text-align: center;
+  padding: 3px;
+}
+
+/*NAVIGATION BAR*/
+nav {
+  background-color: #ff66b2;
+  /* Pink background color */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  /* Adjust spacing between navigation items */
+}
+
+nav a {
+  display: inline-block;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* White text color */
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ff3385;
+  /* Darker pink on hover */
+  color: #fff;
+  /* White text color on hover */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+/*WEBSITE TITLE*/
+h1 a{
+  text-decoration: none;
+  color: #ff3385;
+}
+
+
+h2 {
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: Annai MN;
+}
+
+
+p {
+  font-family: Annai MN, Cochin, Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+div {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: Indie Flower;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  /* Adjust the gap as needed */
+}
+
+.image-grid figure {
+  text-align: center;
+}
+
+.image-grid img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.contain {
+  flex: 2;
+  position: relative;
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Contact me */
+.description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  color: #fff;
+}
+
+ol a {
+  color: white;
+}
