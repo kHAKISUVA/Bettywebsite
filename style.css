@@ -136,11 +136,11 @@ div {
 
 .image {
   flex: 1;
-  padding: 100px;
+  padding: 10px;
 }
 
 /* About me */
-.description {
+.description{
   position: absolute;
   bottom: 10px;
   left: 10px;
