@@ -87,7 +87,7 @@ div {
   color: white;
 }
 
-footer {
+#footer {
   padding-top: 80px;
   padding-bottom: 10px;
   text-align: center;
@@ -124,7 +124,7 @@ footer {
   height: auto;
 }
 
-#container {
+.container {
   display: flex;
   position: relative;
 }
