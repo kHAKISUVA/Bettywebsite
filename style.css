@@ -124,7 +124,7 @@ footer {
   height: auto;
 }
 
-.container {
+#container {
   display: flex;
   position: relative;
 }
@@ -139,7 +139,7 @@ footer {
   padding: 20px;
 }
 
-/* Contact me */
+/* About me */
 .description {
   position: absolute;
   bottom: 10px;
