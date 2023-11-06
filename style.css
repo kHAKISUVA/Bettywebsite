@@ -125,15 +125,44 @@ div {
 }
 
 
+/*About me*/
 
 .container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-.text {
-  margin-left: 20px;
+.profile {
+  text-align: center;
+  margin-right: 20px;
 }
+
+.profile img {
+  border-radius: 50%;
+}
+
+.about {
+  max-width: 600px;
+}
+
+
+
+.profile h1{
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about p{
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+
 
 
 ol {
